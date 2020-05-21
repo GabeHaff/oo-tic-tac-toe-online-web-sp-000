@@ -108,14 +108,16 @@ end
 end
 
 def draw?
- full? && !won?
+if full? && !won?
+  return true
 end
 end
 
 def over?
-   draw? || won?
+ if  draw? || won?
+   return true
 end 
-
+end
 
 def winner(board) 
   win = won?(board)
