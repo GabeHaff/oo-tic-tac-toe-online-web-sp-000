@@ -103,7 +103,7 @@ def won?
 end
 
 def full?
-if board.none? {|token| token == " "|| token = nil}
+if board.all? {|token| token == ""|| token = nil}
 return true 
 else
 return false 
