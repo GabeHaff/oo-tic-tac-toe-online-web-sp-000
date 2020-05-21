@@ -106,6 +106,7 @@ def full?
 @board.all? do {|token| token == ""|| token = nil}
 end
 end 
+end
 
 
 end 
