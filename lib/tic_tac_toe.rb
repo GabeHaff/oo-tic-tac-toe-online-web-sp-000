@@ -103,7 +103,7 @@ def won?
 end
 
 def full?
-@board.all? do {|token| token == ""|| token = nil}
+@board.all? do |token| token == "" || token = nil
 end
 
 
