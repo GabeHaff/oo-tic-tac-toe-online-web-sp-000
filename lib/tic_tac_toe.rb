@@ -52,7 +52,6 @@ return  false
  elsif @board[index]== nil || @board[index]= character
   return true 
 end 
-  end 
 end
 
 def valid_move?(index)
