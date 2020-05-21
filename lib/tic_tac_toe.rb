@@ -98,10 +98,11 @@ def won?(board)
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
       return win_comb
     end
+  end
   }
   return false
 end
-end
+
 
 
 end 
