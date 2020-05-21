@@ -115,6 +115,8 @@ end
 def over?
    draw? || won?
 end 
+end
+
 def winner(board) 
   win = won?(board)
   if win == false
