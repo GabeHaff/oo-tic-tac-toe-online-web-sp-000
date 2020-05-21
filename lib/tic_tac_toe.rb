@@ -113,7 +113,7 @@ def draw?
 end
 end
 
-def over?(board)
+def over?
   if draw?(board) || won?(board) 
   end 
 end 
