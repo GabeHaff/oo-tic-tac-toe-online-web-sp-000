@@ -109,6 +109,7 @@ end
 
 def draw?
  if full? && !won?
+   return true
 end
 end
 
