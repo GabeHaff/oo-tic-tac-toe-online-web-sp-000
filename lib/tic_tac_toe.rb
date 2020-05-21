@@ -108,14 +108,12 @@ end
 end
 
 def draw?
- if full? && !won?
-   return true
+ full? && !won?
 end
 end
 
 def over?
-  if draw? || won?
-  end 
+   draw? || won?
 end 
 
 
