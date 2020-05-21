@@ -124,9 +124,9 @@ def winner
   if win == false
     return nil
   else
-    if board[win[0]] == "X"
+    if @board[win[0]] == "X"
       return "X"
-    elsif board[win[0]] == "O"
+    elsif @board[win[0]] == "O"
       return "O"
     end
   end
