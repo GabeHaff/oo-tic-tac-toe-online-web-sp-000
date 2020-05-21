@@ -74,3 +74,4 @@ end
   def turn_count
   @board.reject {|space| space == ' '}.length  
 end 
+end 
