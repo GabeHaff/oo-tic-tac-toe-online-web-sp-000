@@ -119,8 +119,8 @@ def over?
 end 
 end
 
-def winner(board) 
-  win = won?(board)
+def winner
+  win = w
   if win == false
     return nil
   else
