@@ -125,9 +125,9 @@ def winner
     return nil
   else
     if @board[win[0]] == "X"
-      return "X"
+      puts "X"
     elsif @board[win[0]] == "O"
-      return "O"
+      puts "O"
     end
   end
 end
