@@ -133,7 +133,7 @@ def winner
 end
 
 def play
-until over? do 
+until over?
  turn
 if won?
   puts "Congratulations #{winner}!"
