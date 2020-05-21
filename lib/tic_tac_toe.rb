@@ -49,7 +49,7 @@ end
 def position_taken?(index, character= "X" || "O")
   if @board[index]== " " 
 return  false
- elsif 
+ elsif  @board[index]== nil || @board[index]= character
   return true 
 end 
 end
