@@ -114,7 +114,7 @@ end
 end
 
 def over?
-  if draw?(board) || won?(board) 
+  if draw? || won?
   end 
 end 
 
