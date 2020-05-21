@@ -99,7 +99,6 @@ def won?(board)
       return win_comb
     end
   }
-else
   return false
 end
 
