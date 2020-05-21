@@ -55,7 +55,7 @@ end
   end 
 end
 
-def valid_move?(index)
+def valid_move?(index,board)
   if !position_taken? && index.between?(0,8)
     return true 
 end 
