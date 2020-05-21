@@ -120,7 +120,7 @@ end
 end
 
 def winner
-  win = w
+  win = won?
   if win == false
     return nil
   else
