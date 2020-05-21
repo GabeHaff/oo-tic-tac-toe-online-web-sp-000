@@ -113,6 +113,13 @@ def draw?
 end
 end
 
+def over?(board)
+  if draw?(board) || won?(board) 
+    return true 
+    elsif !won? && full?(board) || won? && !full?
+    return true 
+  end 
+end 
 
 
 end 
