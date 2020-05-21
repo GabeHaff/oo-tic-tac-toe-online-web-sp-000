@@ -136,7 +136,7 @@ def play
 until over?
  turn
 if won?
-  return "Congratulations #{winner}!"
+  puts "Congratulations #{winner}!"
   elsif draw?
   puts "Cat's Game!"
 end
