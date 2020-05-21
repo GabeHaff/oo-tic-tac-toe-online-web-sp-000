@@ -102,7 +102,12 @@ def won?
   return false
 end
 
-
+def full?(board)
+if board.none? {|token| token == " "|| token = nil}
+return true 
+else
+return false 
+end 
 
 
 end 
