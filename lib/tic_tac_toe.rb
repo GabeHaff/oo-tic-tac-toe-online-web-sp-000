@@ -99,6 +99,7 @@ def won?(board)
       return win_comb
     end
   }
+  if draw? == true 
   return false
 end
 
