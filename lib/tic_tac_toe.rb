@@ -119,27 +119,5 @@ def over?
 end 
 end
 
-def winner(board) 
-  win = won?(board)
-  if win == false
-    return nil
-  else
-    if board[win[0]] == "X"
-      return "X"
-    elsif board[win[0]] == "O"
-      return "O"
-    end
-  end
-end
-   
-def play(board)
-until over? do 
- turn
-if won?(board)
-  puts "Congratulations #{winner(board)}!"
-  elsif draw?(board)
-  puts "Cat's Game!"
-end
-
 
 end 
